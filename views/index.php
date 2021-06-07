@@ -9,7 +9,7 @@
 </head>
 <body>
     <?php 
-        include('../logicComponents/header.php');
+        include('../reusableCode/header.php');
     ?>
     <div class="main">
         <div class="first-main">
@@ -17,21 +17,39 @@
                 
             </div>
         </div>
+        Trending Now
         <div class="second-main">
             <div class="box2">
                 <ul>
-                    <li><img src="#"></li>
-                    <li><img src="#"></li>
-                    <li><img src="#"></li>
-                    <li><img src="#"></li>
+                    <li><img src="../media/homepage-cinema.jpg"></li>
+                    <li><img src="../media/homepage-cinema.jpg"></li>
+                    <li><img src="../media/homepage-cinema.jpg"></li>
+                    <li><img src="../media/homepage-cinema.jpg"></li>
                 </ul>
             </div>
         </div>
+        What's happening in the movie industry?
         <div class="third-main">
+            <div class="box3">
+                <ul>
+                    <ul>
+                        <li><img src="#"></li>
+                        <li>paragraf</li>
+                    </ul>
+                    <ul>
+                        <li><img src="#"></li>
+                        <li>paragraf</li>
+                    </ul>
+                    <ul>
+                        <li><img src="#"></li>
+                        <li>paragraf</li>
+                    </ul>
+                </ul>
+            </div>
         </div>
     </div>
     <?php 
-        include('../logicComponents/footer.php');
+        include('../reusableCode/footer.php');
     ?>
 </body>
 </html>

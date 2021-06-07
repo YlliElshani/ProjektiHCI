@@ -62,9 +62,17 @@ body{
 .box2{
     border:1px solid red;
     width: 80%;
+    background-color: #141032;
 }
 
 .box2 ul li img{
     margin:10px;
+    width: 100px;
+    height:100px;
     
+}
+
+/*-----------------------------------------------------*/
+.footer-ul{
+    display: flex;
 }
