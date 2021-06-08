@@ -6,27 +6,51 @@
 
 body{
     background-color: #221C48;
-    width:100vw;
-    height:100vh;
 }
 
-.header{
+.main{
+    width: 27%;
+    margin-left: 35%;
+    padding-top:5%;
+}
+
+.form {
+    border: 1px solid white;
+    padding: 40px;
     display: flex;
-    justify-content: space-between;
-    padding:20px;
-    background-color: #141032;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.right-header ul, .left-header ul, .box2 ul {
+form{
+    background-color: white;
     display: flex;
-    list-style-type: none;
+    flex-direction: column;
+    padding:50px;
 }
 
-.right-header ul li, .left-header ul li{
-    margin-left:50px;
-    margin-right: 50px;
+form label, input{
+    color: black;
+    margin:10px;
+    height:20px;
+}
+input{
+    background-color:#C4C4C4;
+}
+.submit{
+    padding:10px;
+    margin-top: 20px;
+    width: 100px;
+    height:40px;
+    margin-left:70px ;
 }
 
-.right-header ul li a, .left-header ul li a{
+.form a{
     text-decoration: none;
+    color: #221C48;
+    text-align: center;
+}
+
+#sign, #login{
+    text-align: center;
 }
