@@ -2,7 +2,7 @@
     <div class="left-header">
         <ul>
             <li><a href="index.php"><strong>E - Tickets</strong></a></li>
-            <li><a href="index.php">Home</a></li>
+            <li><a href="movies.php">Home</a></li>
             <li><a href="#">Movies</a></li>
             <li><a href="#">Contact Us</a></li>
         </ul>
