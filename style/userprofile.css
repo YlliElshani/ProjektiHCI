@@ -2,7 +2,6 @@
     margin:0;
     padding:0;
     color:white;
-    box-sizing: border-box
 }
 
 body{
@@ -16,7 +15,7 @@ body{
     transform: translate(-50%,-50%);  
     width: 800px;
     padding: 25px;
-    border: 8px solid black;
+    border: 3px solid black;
     height: min-content;
     background-color: #C4C4C47A;
 }
@@ -41,7 +40,7 @@ body{
     transform: translate(-50%,-50%);  
     width: 800px;
     padding: 25px;
-    border: 8px solid black;
+    border: 3px solid black;
     height: min-content;
     background-color: #C4C4C47A;
 }
@@ -91,4 +90,8 @@ h3{
     margin-bottom: 5%;
     text-align: center;
     font-size:larger;
+}
+
+.footer{
+    bottom: -13%;
 }

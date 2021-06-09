@@ -6,6 +6,7 @@
             <li><a href="#">Movies</a></li>
             <li><a href="contactUs.php">Contact Us</a></li>
             <li><a href="details.php">Movie Details</a></li>
+            <li><a href="userprofile.php">Profile</a></li>
         </ul>
     </div>
     <div class="right-header">
