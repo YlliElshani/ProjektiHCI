@@ -11,7 +11,7 @@
     <?php 
         include('../reusableCode/header.php');
     ?>
-    <form action="action_page.php" style="border:1px solid #ccc">
+    <form action="action_page.php">
       <div class="container">
         <h1>Sign Up</h1>
         <div class="row">
@@ -38,8 +38,6 @@
               <label>
                 <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
               </label>
-
-
               <div class="clearfix">
                 <button type="button" class="cancelbtn">Cancel</button>
                 <button type="submit" class="signupbtn">Sign Up</button>
