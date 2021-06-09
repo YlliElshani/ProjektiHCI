@@ -7,13 +7,16 @@
     <title>E - Tickets</title>
     <link rel="stylesheet" href="../style/userprofile.css" type="text/css">
 </head>
+
 <body>
     <?php 
         include('../reusableCode/header.php');
     ?>
+
     <div class="logo">
         <img src="../media/userprofile.png">
     </div>
+
     <div class="user">
         <ul style="list-style-type:none;">
             <li>Name:</li>
@@ -26,6 +29,7 @@
             <li>283634834343</li>
         </ul>
     </div>
+
     <div class="content">
         <h3>Favourite Movies List:</h3>
         <ul style="list-style-type:none;">
@@ -37,6 +41,7 @@
             <li>The Godfather</li>
         </ul>
     </div>
+
     <div class="container">
         <h3>Tickets Bought:</h3>
         <ul style="list-style-type:none;">
@@ -44,8 +49,13 @@
             <li>Lady Business</li>
         </ul>
     </div>
-    <?php 
+    
+</body>
+
+<footer class='footer'>
+ <?php 
         include('../reusableCode/footer.php');
     ?>
-</body>
+ </footer>
+
 </html>
