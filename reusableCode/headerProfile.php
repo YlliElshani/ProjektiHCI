@@ -4,13 +4,13 @@
             <li><a href="index.php"><strong>E - Tickets</strong></a></li>
             <li><a href="index.php">Home</a></li>
             <li><a href="#">Movies</a></li>
+            <li><a href="userprofile">Profile</a></li>
             <li><a href="#">Contact Us</a></li>
         </ul>
     </div>
     <div class="right-header">
         <ul>
-            <li><a href="login.php">LogIn</a></li>
-            <li><a href="signup.php">SignUp</a></li>
+            <li><a href="#">LogOut</a></li>
         </ul>
     </div>
 </div>
