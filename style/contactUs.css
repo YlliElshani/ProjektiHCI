@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+    color:white;
+}
+body{
+    background-color: #221C48;
+    width:100vw;
+    height:100vh;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+    background-color: #141032;
+}
+
+.right-header ul, .left-header ul, .box2 ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.right-header ul li, .left-header ul li{
+    margin-left:50px;
+    margin-right: 50px;
+}
+
+.right-header ul li a, .left-header ul li a{
+    text-decoration: none;
+}
+
+/*----------------------------------------*/
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+.paragraphContainer1 {
+padding: 2%;
+font-size: 22px;
+}
+.fotoja2{
+    width: 15%;
+    margin-left: 20%;
+}
+.container3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid white;
+    width: 80%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+.container3 div {
+    font-size: 22px;
+    margin-right: 20%;
+}
+
+.container3 input{
+    width: 200%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#input4{
+    height: 140%;
+}
+
+button{
+    font-size: 22px;
+    margin-right: 20%;
+    width: 200%;
+    height: 40%;
+    margin-left: 50%;
+    margin-bottom: 40%;
+    background-color: #141032; 
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin-top: 70%;
+}
