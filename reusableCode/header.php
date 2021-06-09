@@ -5,6 +5,7 @@
             <li><a href="index.php">Home</a></li>
             <li><a href="#">Movies</a></li>
             <li><a href="#">Contact Us</a></li>
+            <li><a href="userprofile.php">Profile</a></li>
         </ul>
     </div>
     <div class="right-header">

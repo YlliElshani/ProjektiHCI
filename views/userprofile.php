@@ -9,7 +9,7 @@
 </head>
 <body>
     <?php 
-        include('../reusableCode/headerProfile.php');
+        include('../reusableCode/header.php');
     ?>
     <div class="logo">
         <img src="../media/userprofile.png">
