@@ -6,31 +6,7 @@
 
 body{
     background-color: #221C48;
-    width:100vw;
-    height:100vh;
 }
-
-.header{
-    display: flex;
-    justify-content: space-between;
-    padding:20px;
-    background-color: #141032;
-}
-
-.right-header ul, .left-header ul, .box2 ul {
-    display: flex;
-    list-style-type: none;
-}
-
-.right-header ul li, .left-header ul li{
-    margin-left:50px;
-    margin-right: 50px;
-}
-
-.right-header ul li a, .left-header ul li a{
-    text-decoration: none;
-}
-
 /*----------------------------------------*/
 .main{
     display: flex;
@@ -54,25 +30,38 @@ body{
     border-radius: 11px;
 }
 /*---------------------*/
-.second-main{    
+.second-main, .third-main{    
     display: flex;
     justify-content: center;
 }
-
+.box2 ul{
+    justify-content: center;
+    padding:10px;
+}
 .box2{
-    border:1px solid red;
     width: 80%;
     background-color: #141032;
+    border-radius: 10px;
 }
-
 .box2 ul li img{
     margin:10px;
-    width: 100px;
-    height:100px;
-    
+    width: 150px;  
+    height:220px;
 }
 
-/*-----------------------------------------------------*/
-.footer-ul{
-    display: flex;
+/*---------*/
+.box3{
+    background-color:#141032 ;
+    margin-top:5em;
+    width:60%;
 }
+.box3 ul li img {
+    width:300px;
+    margin-right: 50px;
+}
+.box3 ul ul{
+    display: flex;
+    padding: 30px;
+}
+/*---------------------------------*/
+
