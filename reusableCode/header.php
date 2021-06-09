@@ -4,7 +4,8 @@
             <li><a href="index.php"><strong>E - Tickets</strong></a></li>
             <li><a href="index.php">Home</a></li>
             <li><a href="#">Movies</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="contactUs.php">Contact Us</a></li>
+            <li><a href="details.php">Movie Details</a></li>
         </ul>
     </div>
     <div class="right-header">
