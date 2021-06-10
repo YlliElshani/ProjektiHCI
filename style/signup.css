@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding:0;
+    color:white;
+}
+
+body{
+    background-color: #221C48;
+}
+
+h1{
+  text-align: center;
+  transition: all 0.5s;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  transition: all 0.5s;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  color: black;
+  font-size: larger;
+  padding: 12px 20px;
+  border: none;
+  cursor:pointer;
+  transition: all 0.5s;
+}
+
+button {
+  background-color: grey;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.column {
+  width: 25%;
+  margin-top: 3px;
+  padding: 20px;
+  height: 25%;
+  text-align: center;
+  margin: auto;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
