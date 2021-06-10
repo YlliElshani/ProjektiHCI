@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
  <html>
  <head>
 
@@ -22,9 +22,9 @@ include 'includes/databaza.inc.php';
 
         <div class='imageContainer'>
                  <?php
-	               $result = $mysqli->query("Select * From $table where ID = '1' ");
+	               $result = $mysqli->query("Select * From $table where ID = '3' ");
                    while ($data = $result->fetch_assoc()){
- 					       echo "<img  class='fotoja1' src='{$data['fotosource']}'>";
+ 					 echo "<img  class='fotoja1' src='{$data['fotosource']}'>";
 
 					}             
 					?>
@@ -35,7 +35,7 @@ include 'includes/databaza.inc.php';
 		<div class='textContainer'>
             <p>Movie Name</p>
             <?php
-				$result = $mysqli->query("Select * From $table where ID = '1' ");
+				$result = $mysqli->query("Select * From $table where ID = '3' ");
 	            while ($data = $result->fetch_assoc()){
                 echo "<p>{$data['Emri']}</p>";
 
@@ -44,7 +44,7 @@ include 'includes/databaza.inc.php';
             <br/>
             <p>Cmimi</p>
             <?php
-				$result = $mysqli->query("Select * From $table where ID = '1' ");
+				$result = $mysqli->query("Select * From $table where ID = '3' ");
 	            while ($data = $result->fetch_assoc()){
                 echo "<p>{$data['Cmimi']}</p>";
 
@@ -67,15 +67,13 @@ include 'includes/databaza.inc.php';
 </div>
 
 <div class='image2Container'>
-   
-    <?php
-	               $result = $mysqli->query("Select * From $table where ID = '1' ");
+<?php
+	               $result = $mysqli->query("Select * From $table where ID = '3' ");
                    while ($data = $result->fetch_assoc()){
  					       echo "<img  class='fotoja2' src='{$data['fotosource2']}'>";
 
 					}             
 					?>
-    
  </div>
 
 </div>
@@ -84,7 +82,7 @@ include 'includes/databaza.inc.php';
 <h4>Movie Synposis:</h4>
 <br>
        <?php
-				$result = $mysqli->query("Select * From $table where ID = '1' ");
+				$result = $mysqli->query("Select * From $table where ID = '3' ");
 	            while ($data = $result->fetch_assoc()){
                 echo "<h5 id='description'>{$data['Pershkrimi']}</h5>";
 
