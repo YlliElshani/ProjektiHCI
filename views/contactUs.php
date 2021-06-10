@@ -53,9 +53,7 @@
             <input type="text" id='input4' name='Message' id='messageinput'>
         </div>
         
-        <div>
             <button type='button' name='submit' onclick="validate();">Send</button>
-        </div>
 
 	</div>
 

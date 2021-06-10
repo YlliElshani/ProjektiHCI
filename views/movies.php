@@ -47,13 +47,13 @@
             <div class="m4">
                 <img src="un.png" width="200px" height="300px">
             </div>
-        <div class="left1">
-            <label>Action movies</label>
+         <div class="labsL">
+            <label>Comedy movies</label>
         </div>
-        <div class="left2">
+        <div class="labsL2">
             <label>to watch right</label>
         </div>
-        <div class="left3">
+        <div class="labsL3">
             <label>Now</label>
         </div>
     </div>
@@ -62,3 +62,26 @@
     ?>
 	</body>
 </html>
+<style type="text/css">
+.labsL{
+    font-family:Montserrat;
+    font-size:45px;
+    position: absolute;
+    left: 1200px;
+    top: 1450px;
+}
+.labsL2{
+    font-family:Montserrat;
+    font-size:45px;
+    position: absolute;
+    left: 50px;
+    top: 990px;
+}
+.labsL3{
+    font-family:Montserrat;
+    font-size:45px;
+    position: absolute;
+    left: 140px;
+    top: 1030px;
+}
+</style>
