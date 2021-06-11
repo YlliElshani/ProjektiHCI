@@ -43,6 +43,8 @@ body{
 .imageContainer{
     margin-top: 3.5%;
     margin-left: 5%;
+    width: 200px;
+    height: 300px;
     
     
   
@@ -125,10 +127,14 @@ body{
  .fotoja2{
      width: 400px;
      
+     
     
 }
 .fotoja1{
     margin-left: 20%;
+    width: 250px;
+    height: 350px;
+    
    
 }
 
@@ -150,4 +156,5 @@ body{
 
 #description{
     width: 80%;
+    height: 80px;;
 }

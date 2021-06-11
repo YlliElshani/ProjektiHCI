@@ -22,20 +22,29 @@
                  <p class='hitstext'> Hits Breaking Records</p>
             </div>
 
-            <div>
-                <img class='photo' src="../media/detailsphoto1.jpg">
+            <div  class='imgdiv'>
+               <a href='details.php'>
+                  <img class='photo' src="../media/detailsphoto1.jpg">
+               </a>
             </div>
 
-            <div>
-                 <img class='photo' src="../media/detailsphoto3.jpg">
+            <div  class='imgdiv'>
+               <a href='details2.php'>
+                  <img class='photo' src="../media/detailsphoto3.jpg">
+               </a>
             </div>
 
-            <div>
-                 <img class='photo' src="../media/moviephoto1.jpg">
+            <div  class='imgdiv'>
+            <a href='details4.php'>
+                <img class='photo' src="../media/moviephoto1.jpg">
+            </a>
+                 
             </div>
 
-            <div>
-                 <img class='photo' src="../media/moviephoto2.jpg">
+            <div class='imgdiv'>
+               <a href='details5.php'>
+                    <img class='photo' src="../media/moviephoto2.jpg">
+               </a>
             </div>
 
     </div>
@@ -48,11 +57,15 @@
             </div>
 
             <div class='photo2Container'>
-                 <img class='photo' src="../media/comedy1.jpg">
+               <a href='details6.php'>
+                  <img class='photo' src="../media/comedy1.jpg">
+               </a>     
             </div>
 
             <div class='photo2Container'> 
-                 <img class='photo' src="../media/comedy2.jpg">
+            <a href='details7.php'>
+                  <img class='photo' src="../media/comedy2.jpg">
+               </a>   
             </div>
 
     </div>
@@ -60,11 +73,16 @@
     <div class=actionContainer>
 
             <div class='photo3Container'>
-                 <img class='photo' src="../media/aksionphoto1.jpg">
+            <a href='details9.php'>
+                <img class='photo' src="../media/aksionphoto1.jpg">
+            </a>
+                 
             </div>
 
             <div class='photo3Container'> 
+            <a href='details8.php'>
                  <img class='photo' src="../media/aksionphoto2.jpg">
+            </a>
             </div>
 
             <div class='actiontextContainer'> 
@@ -81,11 +99,15 @@
             </div>
 
             <div class='photo2Container'>
-                 <img class='photo' src="../media/triller1.jpg">
+               <a href='details10.php'>
+                    <img class='photo' src="../media/triller1.jpg">
+               </a>      
             </div>
 
             <div class='photo2Container'> 
-                 <img class='photo' src="../media/triller2.jpg">
+               <a href='details3.php'>
+                  <img class='photo' src="../media/detailsphoto5.jpg">
+               </a>
             </div>
 
     </div>
@@ -93,11 +115,15 @@
     <div class=actionContainer>
 
 <div class='photo3Container'>
-     <img class='photo' src="../media/animated1.jpg">
+     <a href='details11.php'>
+           <img class='photo' src="../media/animated1.jpg">
+     </a>   
 </div>
 
 <div class='photo3Container'> 
-     <img class='photo' src="../media/animated2.jpg">
+<a href='details12.php'>
+           <img class='photo' src="../media/animated2.jpg">
+     </a>  
 </div>
 
 <div class='actiontextContainer'> 

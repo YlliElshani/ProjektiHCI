@@ -35,7 +35,7 @@ body{
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 70%;
     margin-right: auto;
     margin-left: auto;
@@ -47,6 +47,10 @@ body{
 .photo{
     width: 200px;
     height: 300px;
+  
+}
+.imgdiv{
+    margin: 0.5%;
 }
 
 .hitstext{
