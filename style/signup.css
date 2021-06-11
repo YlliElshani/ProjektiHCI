@@ -5,66 +5,43 @@
 }
 
 body{
-    background-color: #221C48;
+  background-color: #221C48;
 }
-
-h1{
-  text-align: center;
-  transition: all 0.5s;
-}
-
-input[type=text], input[type=password] {
-  width: 100%;
-  padding: 12px;
-  border-radius: 12px;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-  transition: all 0.5s;
-}
-
-input[type=text]:focus, input[type=password]:focus {
-  color: black;
-  font-size: larger;
-  padding: 12px 20px;
-  border: none;
-  cursor:pointer;
-  transition: all 0.5s;
-}
-
-button {
-  background-color: grey;
+/*---------------------------*/
+form{
+  display: flex;
+  flex-direction: column;
   color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
+  padding:30px;
+  align-items: center;
 }
-
-button:hover {
-  opacity:1;
+form input{
+  width:400px;
+  height:30px;
+  border:none;
+  border-bottom:1px solid white;
+  margin:20px;
+  color:white;
 }
-
-.container {
-  border-radius: 5px;
-  padding: 10px;
+form label{
+  margin:20px;
+  color: white;
 }
-
-.column {
-  width: 25%;
-  margin-top: 3px;
-  padding: 20px;
-  height: 25%;
-  text-align: center;
-  margin: auto;
+select{
+  width:400px;
+  height:30px;
+  color: white;
+  margin-left:20px;
 }
-
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
+#submit{
+  width:150px;
+  background-color: white;
+  height:50px;
+  font-size:large;
+  color: black;
+  margin-top:70px;
 }
-
-
+:placeholder-shown{
+  color: white;
+}
+/*-----------------------------------*/

@@ -4,51 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E - Tickets</title>
-    <link rel="stylesheet" href="../style/signup.css" type="text/css">
+    <title>Oriflame</title>
+    <link rel="stylesheet" href="../style/signup.css">
 </head>
 <body>
     <?php 
         include('../reusableCode/header.php');
     ?>
-    <form action="action_page.php">
-      <div class="container">
-        <h1>Sign Up</h1>
-        <div class="row">
-          <div class="column">
-            <form id="mainForm" action="">
-              <label for="firstname"><b>First Name</b></label>
-              <input type="text" placeholder="Enter First Name" name="firstname" required>
-
-              <label for="lastname"><b>Last Name</b></label>
-              <input type="text" placeholder="Enter Last Name" name="lastname" required>
-
-              <label for="email"><b>Email</b></label>
-              <input type="text" placeholder="Enter Email" name="email" required>
-
-              <label for="psw"><b>Password</b></label>
-              <input type="password" placeholder="Enter Password" name="psw" required>
-
-              <label for="psw-repeat"><b>Repeat Password</b></label>
-              <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
-
-              <label for="creditcard"><b>Credit Card No</b></label>
-              <input type="text" placeholder="Enter Credit Card No" name="creditcard" required>
-
-              <label>
-                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
-              </label>
-              <div class="clearfix">
-                <button type="button" class="cancelbtn">Cancel</button>
-                <button type="submit" class="signupbtn">Sign Up</button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </form>
-    <?php 
+  <div class="main">
+      <form action="../logicComponents/registerVerify.php" method="post" onsubmit="return signUpValidimi()">        
+          <label>Name</label>
+          <input name='register-name' type="text" placeholder="Enter your firstname">
+          <label>Last Name</label>
+          <input name='register-lastname' type="text" placeholder="Enter your lastname">
+          <label>Email</label>
+          <input name='register-email' type="text" placeholder="Enter a valid email address">
+          <label>Password</label>
+          <input name='register-pass' type="password" placeholder="***********">
+          <label>Credit Card number</label>
+          <input name='register-ccNo' type="text" placeholder="Enter a valid credit card number">
+          <input type="submit" id="submit" value="Register" name='register-btn'>
+      </form>
+  </div> 
+  <?php 
         include('../reusableCode/footer.php');
-    ?>
+  ?>    
+  <script src="../js/main.js"></script>
 </body>
 </html>

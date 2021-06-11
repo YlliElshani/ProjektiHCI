@@ -26,7 +26,7 @@ function loginValidimi () {
         return true;
     }
 }
-/*
+
 function signUpValidimi () {
     let inputs = document.querySelectorAll("input");
 
@@ -78,4 +78,4 @@ function signUpValidimi () {
         alert("You have registered succesfully!");
         return true;
     }
-}*/
+}

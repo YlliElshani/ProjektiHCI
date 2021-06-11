@@ -6,13 +6,32 @@
             <li><a href="#">Movies</a></li>
             <li><a href="contactUs.php">Contact Us</a></li>
             <li><a href="details.php">Movie Details</a></li>
-            <li><a href="userprofile.php">Profile</a></li>
+            <?php 
+            if(isset($_SESSION['role']) && $_SESSION['role'] == 0){
+                ?>
+                <li><a href="userprofile.php">Profile</a></li>
+            <?php
+            }
+            ?>
         </ul>
     </div>
     <div class="right-header">
         <ul>
-            <li><a href="login.php">LogIn</a></li>
-            <li><a href="signup.php">SignUp</a></li>
+            <?php
+            if(!(isset($_SESSION['role']) && $_SESSION['role'] == 0)){
+                ?>
+                <li><a href="login.php">LogIn</a></li>
+                <li><a href="signup.php">SignUp</a></li>
+            <?php
+            }
+            ?>
+            <?php 
+            if(isset($_SESSION['role']) && $_SESSION['role'] == 0){
+                ?>
+                <li><a href="../logicComponents/logout.php">LogOut</a></li>
+            <?php
+            }
+            ?>
         </ul>
     </div>
 </div>
