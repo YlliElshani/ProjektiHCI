@@ -29,7 +29,7 @@ class Login{
             header("Location:../views/login.php");
         }
         else if ($this->usernameAndPasswordCorrect($this->email, $this->password)){
-            header("Location:../views/userprofile.php");
+            header("Location:../views/index.php");
         }
         else{
             header("Location:../views/login.php");

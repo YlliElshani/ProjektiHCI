@@ -2,13 +2,6 @@
     <div class="left-header">
         <ul>
             <li><a href="index.php"><strong>E - Tickets</strong></a></li>
-            <?php 
-            if(isset($_SESSION['role']) && $_SESSION['role'] == 0){
-                ?>
-                <li><a href="userprofile.php">Profile</a></li>
-            <?php
-            }
-            ?>
             <li><a href="index.php">Home</a></li>
             <li><a href="movies.php">Movies</a></li>
             <li><a href="contactUs.php">Contact Us</a></li>

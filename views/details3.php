@@ -24,13 +24,18 @@ include 'includes/databaza.inc.php';
 	<div class='container'>
 
         <div class='imageContainer'>
-                 <?php
-	               $result = $mysqli->query("Select * From $table where ID = '3' ");
-                   while ($data = $result->fetch_assoc()){
- 					 echo "<img  class='fotoja1' src='{$data['fotosource']}'>";
-
-					}             
-					?>
+            <?php
+                if(isset($_POST['buyT'])){
+                    echo   '<img class="fotoja1" src="../media/WrathOfMan.png">';  
+                }
+                else{
+                    $result = $mysqli->query("Select * From $table where ID = '3' ");
+                    while ($data = $result->fetch_assoc()){
+                                echo "<img  class='fotoja1' src='{$data['fotosource']}'>";
+                    }         
+                }
+                                
+            ?>
             
           
         </div>
@@ -57,13 +62,15 @@ include 'includes/databaza.inc.php';
             <?php
             if(isset($_SESSION['role']) && $_SESSION['role'] == 0){
                 ?>
-                <input class='butoni' type="submit" value="Buy Ticket">
+                <form method="POST">
+                    <input class='butoni' type="submit" value="Buy Ticket" name="buyT">      
+                </form>  
             <?php
             }
             ?>
             <br/>
             <br/>
-            <p id='t1'>The moment you buy the ticket a QR code will be send to you by emails</p>
+            <p id='t1'>The moment you buy the ticket a QR code will be generated</p>
          </div>
 
 	</div>

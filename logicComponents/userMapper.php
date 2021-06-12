@@ -37,23 +37,6 @@ class UserMapper extends DatabasePDOConfiguration{
         $statement->execute();
     }
 
-    public function edit(\SimpleUser $user, $id){
-        $this->query = "update user set name=:name, lastname=:lastname, email=:email, password=:password, ccNo=:ccNo where userid=:id";
-        $statement = $this->conn->prepare($this->query);
-        $name = $user->getName();
-        $lastname = $user->getLastName();
-        $email = $user->getEmail();
-        $password = $user->getPassword();
-        $ccNo = $user->getCcNo();
-        $statement->bindParam(":name", $name);
-        $statement->bindParam(":lastname", $lastname);
-        $statement->bindParam(":email", $email);
-        $statement->bindParam(":password", $password);
-        $statement->bindParam(":ccNo", $ccNo);
-        $statement->bindParam(":id", $id);
-        $statement->execute();
-    }
-
     public function getUserByID($userId){
         $this->query = "select * from user where userid=:id";
         $statement = $this->conn->prepare($this->query);
