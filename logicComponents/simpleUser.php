@@ -8,7 +8,7 @@ class SimpleUser{
     private $ccNo;
     private $role;
 
-    public function __construct($email, $name, $lastname, $password, $ccNo, $role){
+    public function __construct($name, $lastname,$email, $password, $ccNo, $role){
         $this->password = $password; 
         $this->email = $email;
         $this->name = $name;

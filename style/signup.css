@@ -11,7 +11,7 @@ body{
 form{
   display: flex;
   flex-direction: column;
-  color: white;
+  color: black;
   padding:30px;
   align-items: center;
 }
@@ -21,17 +21,11 @@ form input{
   border:none;
   border-bottom:1px solid white;
   margin:20px;
-  color:white;
+  color:black;
 }
 form label{
   margin:20px;
   color: white;
-}
-select{
-  width:400px;
-  height:30px;
-  color: white;
-  margin-left:20px;
 }
 #submit{
   width:150px;
@@ -41,7 +35,5 @@ select{
   color: black;
   margin-top:70px;
 }
-:placeholder-shown{
-  color: white;
-}
+
 /*-----------------------------------*/

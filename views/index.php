@@ -57,7 +57,7 @@
                         <li><strong>Here’s Why The Future Of Movie Theaters May Be Brighter Than It Looks</strong><br><br>
                         The first rule of investing is “buy low, sell high.” Right now, few businesses are hitting lower lows than the movie theater industry, which could make it a great time to acquire a distressed asset ahead of a turnaround. That’s been true for the duration of the pandemic, and it’s still true now even as light can be dimly glimpsed at the end of the tunnel. The question is, is there an upside given the uncertain state of the entire film industry, and if so, for what kind of buyer?
 
-These are hard times for the movie theater industry. Domestic ticket sales in the US were down 80% in 2020 to $2.2 billion from a 2019 haul of $11.4 billion, according to Comscore SCOR -3.1%. You’d have to go back to the early 1980s to find a number that low. And industry leaders fear the hangover may persist even as the cloud of COVID-19 slowly starts to lift with the rollout of vaccines in 2021.</li>
+                        These are hard times for the movie theater industry. Domestic ticket sales in the US were down 80% in 2020 to $2.2 billion from a 2019 haul of $11.4 billion, according to Comscore SCOR -3.1%. You’d have to go back to the early 1980s to find a number that low. And industry leaders fear the hangover may persist even as the cloud of COVID-19 slowly starts to lift with the rollout of vaccines in 2021.</li>
                     </ul>
                 </ul>
             </div>

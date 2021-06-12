@@ -1,3 +1,6 @@
+<?php 
+    session_start();
+ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,10 +19,10 @@
             <form action="../logicComponents/loginVerify.php" method="post" onsubmit="return loginValidimi()">
                 <label id="login">Log In</label>
                 <label>Email:</label>
-                <input name='email' type="text">
+                <input id="email" name='email' type="text">
                 <label>Password:</label>
-                <input name='password' type="password">
-                <input name="login-btn" class="submit" type="submit" value="Log In">
+                <input id="pass" name='password' type="password">
+                <input id='loginB' name='login-btn' class="submit" type="submit" value="Log In">
                 <label id="sign">Don't have an account?</label>
                 <a href="signup.php">Sign Up</a>
             </form>
@@ -28,6 +31,6 @@
     <?php 
         include('../reusableCode/footer.php');
     ?>
-    <script src="../js/main.js"></script>
+    <script src="../js/login.js"></script>
 </body>
 </html>

@@ -17,7 +17,7 @@ class UserMapper extends DatabasePDOConfiguration{
         $name = $user->getName();
         $lastname = $user->getLastName();
         $email = $user->getEmail();
-        $pass = md5($user->getPassword());
+        $pass = password_hash($user->getPassword(), PASSWORD_BCRYPT);
         $ccNo = $user->getCcNo();
         $role = $user->getRole();
 

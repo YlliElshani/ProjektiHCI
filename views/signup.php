@@ -1,3 +1,6 @@
+<?php 
+    session_start();
+ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +15,7 @@
         include('../reusableCode/header.php');
     ?>
   <div class="main">
-      <form action="../logicComponents/registerVerify.php" method="post" onsubmit="return signUpValidimi()">        
+      <form onsubmit="return signUpValidimi()" action="../logicComponents/registerVerify.php" method="post">        
           <label>Name</label>
           <input name='register-name' type="text" placeholder="Enter your firstname">
           <label>Last Name</label>
@@ -29,6 +32,6 @@
   <?php 
         include('../reusableCode/footer.php');
   ?>    
-  <script src="../js/main.js"></script>
+  <script src="../js/signup.js"></script>
 </body>
 </html>

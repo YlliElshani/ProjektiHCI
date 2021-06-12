@@ -1,3 +1,6 @@
+<?php 
+    session_start();
+ ?>
 <!DOCTYPE html>
  <html>
  <head>
@@ -51,7 +54,13 @@ include 'includes/databaza.inc.php';
               }
             ?>
             <br/>
-            <button class='butoni' type="button">Buy Ticket</button>
+            <?php
+            if(isset($_SESSION['role']) && $_SESSION['role'] == 0){
+                ?>
+                <input class='butoni' type="submit" value="Buy Ticket">
+            <?php
+            }
+            ?>
             <br/>
             <br/>
             <p id='t1'>The moment you buy the ticket a QR code will be send to you by emails</p>
@@ -62,7 +71,13 @@ include 'includes/databaza.inc.php';
     <div class='container'>
 
 <div class='b1Container'>
-    <button   button class='butoni' type="button">Add to Favorites</button>
+          <?php
+            if(isset($_SESSION['role']) && $_SESSION['role'] == 0){
+                ?>
+                <input class='butoni' type="submit" value="Add to Favourites">
+            <?php
+            }
+            ?>
     <p id='t2'>Watch trailer</p>
 </div>
 

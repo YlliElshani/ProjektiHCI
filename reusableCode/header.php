@@ -2,9 +2,6 @@
     <div class="left-header">
         <ul>
             <li><a href="index.php"><strong>E - Tickets</strong></a></li>
-            <li><a href="userprofile.php">Home</a></li>
-            <li><a href="movies2.php">Movies</a></li>
-            <li><a href="contactUs.php">Contact Us</a></li>
             <?php 
             if(isset($_SESSION['role']) && $_SESSION['role'] == 0){
                 ?>
@@ -12,6 +9,9 @@
             <?php
             }
             ?>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="movies.php">Movies</a></li>
+            <li><a href="contactUs.php">Contact Us</a></li>
         </ul>
     </div>
     <div class="right-header">

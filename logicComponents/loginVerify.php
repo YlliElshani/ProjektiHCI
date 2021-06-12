@@ -1,6 +1,6 @@
 <?php
 
-include_once 'simpleUserClass.php';
+include_once 'simpleUser.php';
 require_once 'userMapper.php';
 
 session_start();
@@ -26,13 +26,13 @@ class Login{
 
     public function verifyData(){
         if($this->variablesNotDefinedWell($this->email, $this->password)){
-            header("Location:../views/index.php");
+            header("Location:../views/login.php");
         }
         else if ($this->usernameAndPasswordCorrect($this->email, $this->password)){
-            header("Location:../views/index.php");
+            header("Location:../views/userprofile.php");
         }
         else{
-            header("Location:../views/index.php");
+            header("Location:../views/login.php");
         }
     }
 

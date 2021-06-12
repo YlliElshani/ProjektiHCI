@@ -1,31 +1,3 @@
-const emailReg = /^[A-Za-z0-9+_.-]+@(.+)$/;
-
-function loginValidimi () {
-    let inputs = document.querySelectorAll("input");
-    
-    email = inputs[0].value;
-    password = inputs[1].value;
-
-    if(email == "") {
-        alert("Please enter your email!");
-        return false;
-    }
-    else if(!emailReg.test(email)){
-        alert("Please enter a valid email address!");
-        return false;
-    }
-    else if (password == "") {
-        alert("Please enter your password!");
-        return false;
-    }
-    else if (password.length < 7) {
-        alert("Password must contain at least 8 characters!");
-        return false;
-    }
-    else{
-        return true;
-    }
-}
 
 function signUpValidimi () {
     let inputs = document.querySelectorAll("input");
@@ -39,12 +11,15 @@ function signUpValidimi () {
 
     if(firstName == ""){
         alert("Please enter your first name!");
+        return false;
     }
     else if(lastName == ""){
         alert("Please enter your last name!");
+        return false;
     }
     else if(email == ""){
         alert("Please enter your email!");
+        return false;
     }
     else if(!emailReg.test(email)){
         alert("Please enter a valid email address!");
