@@ -29,6 +29,12 @@ body{
     background-repeat: no-repeat;
     border-radius: 11px;
 }
+a#about{
+    font-size: larger;
+    position: absolute;
+    left:400px;
+    top:500px;
+}
 /*---------------------*/
 .second-main, .third-main{    
     display: flex;

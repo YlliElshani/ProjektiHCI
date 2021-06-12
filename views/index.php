@@ -17,7 +17,7 @@
     <div class="main">
         <div class="first-main">
             <div class="box1">
-                
+                <a id="about" href="AboutUs.php">About Us</a>
             </div>
         </div>
         <div class="second-main">
