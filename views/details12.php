@@ -87,7 +87,15 @@ include 'includes/databaza.inc.php';
 </div>
 
 <div class='image2Container'> 
-<iframe src="https://www.youtube.com/watch?v=EFYEni2gsK0" height="200" width="300"></iframe> 
+<?php
+	               $result = $mysqli->query("Select * From $table where ID = '12' ");
+                   while ($data = $result->fetch_assoc()){
+ 					       echo "<iframe  class='fotoja2' allowfullscreen src='{$data['videolink']}'>";
+
+					}             
+?>
+
+<ifram</iframe>
  </div>
 
 </div>
