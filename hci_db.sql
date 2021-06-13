@@ -55,19 +55,17 @@ CREATE TABLE `movieinfo` (
 INSERT INTO `movieinfo` (`ID`, `Emri`, `Cmimi`, `Pershkrimi`, `fotosource`, `fotosource2`) VALUES
 (1, 'Wrath of Man', '3.99$', 'Adapted from the 2004 French film \"Le Convoyeur\" (aka \"Cash Truck\"), and borrowing the basic outline of the story, \"Wrath of Man\" is a time-shifting neo-noir crime thriller, filled with tough, sometim', '../media/detailsphoto1.jpg', '../media/detailsphoto2.jpg'),
 (2, 'Before we Go', '5.00$', 'Two strangers stuck in Manhattan for the night grow into each other\'s most trusted confidants when an evening of unexpected adventure forces them to confront their fears and take control of their live', '../media/detailsphoto3.jpg\r\n', '../media/detailsphoto4.jpg'),
-(3, 'Interstellar ', '2.10$', 'Interstellar is a 2014 British-American epic science fiction film co-written, directed and produced by Christopher Nolan. ... Set in a dystopian future where humanity is struggling to survive, the fil', '../media/detailsphoto5.jpg', '../media/detailsphoto6.jpg');
-
+(3, 'Interstellar ', '2.10$', 'Interstellar is a 2014 British-American epic science fiction film co-written, directed and produced by Christopher Nolan. ... Set in a dystopian future where humanity is struggling to survive, the fil', '../media/detailsphoto5.jpg', '../media/detailsphoto6.jpg'),
+(4, 'Passengers', '7.00$', 'On a routine journey through space to a new home, two passengers, sleeping in suspended animation, are awakened 90 years too early when their ship malfunctions. As Jim and Aurora face living the rest ', '../media/moviephoto1.jpg', '../media/detailsphoto7.jpg'),
+(5, 'Red Sparrow', '1.99$', 'The film stars Jennifer Lawrence, Joel Edgerton, Matthias Schoenaerts, Charlotte Rampling, Mary-Louise Parker, and Jeremy Irons. It tells the story of a Russian intelligence officer, who is sent to ma', '../media/moviephoto2.jpg', '../media/details5h.jpg'),
+(6, 'The Terminal', '3.50$', 'The film is about an Eastern European man who is stuck in New York\'s John F. Kennedy Airport terminal when he is denied entry into the United States and at the same time is unable to return to his nat', '../media/comedy1.jpg', '../media/details6h.jpg\r\n'),
+(7, 'The Upside', '8.20$', 'The Upside is a 2017 American comedy-drama film directed by Neil Burger, written by Jon Hartmere. ... The film follows a paralyzed billionaire (Bryan Cranston) who strikes up an unlikely friendship wi', '../media/comedy2.jpg', '../media/details7h.jpg'),
+(8, 'Grey Hound', '5.60$', '.S. Navy Cmdr. Ernest Krause is assigned to lead an Allied convoy across the Atlantic during World War II. His convoy, however, is pursued by German U-boats. Although this is Krause\'s first wartime mi', '../media/aksionphoto2.jpg', '../media/detailsphoto8.jpg'),
+(9, 'Mortal Combat', '1.50$', 'Hunted by the fearsome warrior Sub-Zero, MMA fighter Cole Young finds sanctuary at the temple of Lord Raiden. Training with experienced fighters Liu Kang, Kung Lao and the rogue mercenary Kano, Cole p', '../media/aksionphoto1.jpg', '../media/details9h.jpg'),
+(10, 'Extraction', '1.99$', 'A black-market mercenary who has nothing to lose is hired to rescue the kidnapped son of an imprisoned international crime lord. But in the murky underworld of weapons dealers and drug traffickers, an', '../media/triller1.jpg', '../media/details10h.jpg'),
+(11, 'Rava', '7.30$', 'Raya and the Last Dragon is a 2021 American computer-animated fantasy action-adventure film produced by Walt Disney Pictures and Walt Disney Animation Studios, and distributed by Walt Disney Studios M', '../media/animated1.jpg', '../media/details11h.jpg'),
+(12, 'Naruto', '9.99$', 'Two years after the Fourth Shinobi World War, Naruto must stop Toneri Otsutsuki, a descendant of Hamura Otsutsuki, after Toneri causes the moon to descend toward Earth.', '../media/animated2.jpg', '../media/details12h.jpg');
 -- --------------------------------------------------------
-
---
--- Table structure for table `tickets`
---
-
-CREATE TABLE `tickets` (
-  `ticketid` int(11) NOT NULL,
-  `movie` int(11) DEFAULT NULL,
-  `user` int(11) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -94,30 +92,12 @@ INSERT INTO `user` (`userid`, `name`, `lastname`, `email`, `password`, `ccNo`, `
 (16, 'Endrit', 'Makolli', 'endrit.makolli@gmail.com', '$2y$10$jE9s2Ny5SDjU0.tFac2kt.vYjGc3/i3AsI6w9vHBnvDe1Hba28V/y', 1234343535, 0);
 
 --
--- Indexes for dumped tables
---
-
---
--- Indexes for table `favourites`
---
-ALTER TABLE `favourites`
-  ADD PRIMARY KEY (`favId`),
-  ADD KEY `movie` (`movie`),
-  ADD KEY `user` (`user`);
 
 --
 -- Indexes for table `movieinfo`
 --
 ALTER TABLE `movieinfo`
   ADD PRIMARY KEY (`ID`);
-
---
--- Indexes for table `tickets`
---
-ALTER TABLE `tickets`
-  ADD PRIMARY KEY (`ticketid`),
-  ADD KEY `movie` (`movie`),
-  ADD KEY `user` (`user`);
 
 --
 -- Indexes for table `user`
@@ -135,24 +115,6 @@ ALTER TABLE `user`
 ALTER TABLE `user`
   MODIFY `userid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
---
--- Constraints for dumped tables
---
-
---
--- Constraints for table `favourites`
---
-ALTER TABLE `favourites`
-  ADD CONSTRAINT `favourites_ibfk_1` FOREIGN KEY (`movie`) REFERENCES `movieinfo` (`ID`),
-  ADD CONSTRAINT `favourites_ibfk_2` FOREIGN KEY (`user`) REFERENCES `user` (`userid`);
-
---
--- Constraints for table `tickets`
---
-ALTER TABLE `tickets`
-  ADD CONSTRAINT `tickets_ibfk_1` FOREIGN KEY (`movie`) REFERENCES `movieinfo` (`ID`),
-  ADD CONSTRAINT `tickets_ibfk_2` FOREIGN KEY (`user`) REFERENCES `user` (`userid`);
-COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
