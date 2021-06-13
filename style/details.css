@@ -25,28 +25,12 @@ body{
     margin-left: 5%;
     width: 200px;
     height: 300px;
-    
-    
-  
-
 }
 .textContainer{
     margin-right: 5%;
-    padding: 10%;
+    padding: 5%;
     font-size: 24px;
-    
-
-   
-    
 }
-
-
- .b1Container{
-    margin-left: 7%;
-     width: 30%;
-     
-    
- }
 input.butoni {   
     width: 70%;
     background-color: #141032; 
@@ -69,16 +53,11 @@ input.butoni {
     margin-right: 6%;
  }
 
- #t2{
-    font-size: 25px;
-    margin-top:40% ;
-    margin-left: 35%;
- }
-
  .image2Container{
     margin-right: 5%;
-    margin: 2%;
+    margin-top:7%;
     margin-right: 20%;
+    margin-bottom: 2%;
     
  }
  .fotoja2{

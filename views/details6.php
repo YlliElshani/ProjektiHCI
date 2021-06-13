@@ -75,22 +75,11 @@ include 'includes/databaza.inc.php';
 
     <div class='container'>
 
-<div class='b1Container'>
-<?php
-            if(isset($_SESSION['role']) && $_SESSION['role'] == 0){
-                ?>
-                <input class='butoni' type="submit" value="Add to Favourites">
-            <?php
-            }
-            ?>
-    <p id='t2'>Watch trailer</p>
-</div>
-
 <div class='image2Container'>
 <?php
 	               $result = $mysqli->query("Select * From $table where ID = '6' ");
                    while ($data = $result->fetch_assoc()){
- 					       echo "<iframe  class='fotoja2' allowfullscreen src='{$data['videolink']}'>";
+ 					       echo "<iframe  class='fotoja2' style='height: 300px;' allowfullscreen src='{$data['videolink']}'>";
 
 					}             
 ?>
