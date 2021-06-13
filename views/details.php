@@ -91,13 +91,15 @@ include 'includes/databaza.inc.php';
 
 <div class='image2Container'>
    
-    <?php
+<?php
 	               $result = $mysqli->query("Select * From $table where ID = '1' ");
                    while ($data = $result->fetch_assoc()){
- 					       echo "<img  class='fotoja2' src='{$data['fotosource2']}'>";
+ 					       echo "<iframe  class='fotoja2' allowfullscreen src='{$data['videolink']}'>";
 
 					}             
-					?>
+?>
+
+<ifram</iframe>
     
  </div>
 
