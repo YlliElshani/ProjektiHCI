@@ -15,6 +15,7 @@
         include('../reusableCode/header.php');
     ?>
   <div class="main">
+    <div class="form">
       <form onsubmit="return signUpValidimi()" action="../logicComponents/registerVerify.php" method="post">        
           <label>Name</label>
           <input name='register-name' type="text" placeholder="Enter your firstname">
@@ -26,8 +27,9 @@
           <input name='register-pass' type="password" placeholder="***********">
           <label>Credit Card number</label>
           <input name='register-ccNo' type="text" placeholder="Enter a valid credit card number">
-          <input type="submit" id="submit" value="Register" name='register-btn'>
+          <input type="submit" id="submit" value="Sign Up" name='register-btn'>
       </form>
+    </div>
   </div> 
   <?php 
         include('../reusableCode/footer.php');

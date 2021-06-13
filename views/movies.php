@@ -98,7 +98,7 @@
     <div class=comedyContainer>  
 
             <div class='comedytextContainer'> 
-                 <p class='comedytext'>Triller Movies to Watch Right Now</p>
+                 <p class='comedytext'>Thriller Movies to Watch Right Now</p>
             </div>
 
             <div class='photo2Container'>

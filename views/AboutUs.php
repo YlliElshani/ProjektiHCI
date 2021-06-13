@@ -22,7 +22,7 @@
     	<p>Cinema is the country's leading producer of open-air cinema events. Our screenings follow one simple formula: a classic film on a big screen in a beautiful or prestigious setting. We use state of the art screens, digital projectors and bespoke sound equipment to provide a cinema-quality visual and audio experience, but with the magic of being under the stars.</p>
     </div>
     <div class="fotoja">
-	    <img src="../media/au.jpg" width="600" height="250">
+	    <img src="../media/au.jpg" width="600" height="350">
     </div>
     <div class="label2">
     	<label>
@@ -106,11 +106,11 @@
 <style type="text/css">
 	.LearnMore{
 		background-color: rgb(9,3,44);
-		margin-left: 10%;
-		margin-right: 50%;
+		margin-left: 20%;
 		margin-top: 20%;
-		font-family:Montserrat;
-		padding: 10px;
+		font-family: Montserrat;
+		padding: 30px;
+		width: 400px;
 	}
 	.LearnMore label{
 		margin-left: 2%;
@@ -122,18 +122,18 @@
 	.fotoja img{
 		position: absolute;
 		top:170px;
-		left: 400px;
+		left: 450px;
     	z-index:-1;
 	}
 
 	.orange{
 		width: 600px;
-		height: 200px;
+		height: 350px;
 		background-color: rgb(195,87,26);
 		position: absolute;
-		top: 17%;
+		top: 15%;
 		left: 600px;
-    	z-index:-1;
+		z-index: -1;
 	}
 
 	.label2{
@@ -152,14 +152,13 @@
 		flex-direction: row;
 		flex-wrap: nowrap;
 		justify-content: space-between;
-	}
+		padding: 30px;	}
 
 	.Komp1{
 		padding: 15px;
 		width: 150px;
 		height: 180px;
 		font-family:Montserrat;
-		font-size: 17px;
 		text-align: center;
 		border-radius: 15px;
 		background-color: rgb(195,87,26);
@@ -172,6 +171,7 @@
 		display: flex;
 		flex-direction: row;
 		flex-wrap: nowrap;
+		padding: 30px;
 	}
 	.Komp12{
 		padding: 15px;
@@ -197,13 +197,13 @@
 	}
 
 	.Komponentat3{
-		margin-top: 5%;
-		margin-left: 5%;
-		margin-right: 5%;
+		margin-left: 10%;
+		margin-right: 10%;
 		display: flex;
 		flex-direction: row;
 		flex-wrap: nowrap;
 		justify-content: space-between;
+		padding: 30px;
 	}
 
 	.Team1{
@@ -242,12 +242,13 @@
 	}
 
 	.Komponentat4{
-		margin-top: 5%;
-		margin-left: 5%;
-		margin-right: 5%;
+		margin-top: 3%;
+		margin-left: 10%;
+		margin-right: 10%;
 		display: flex;
 		flex-direction: row;
 		flex-wrap: nowrap;
 		justify-content: space-around;
+		padding: 30px;
 	}
 </style>

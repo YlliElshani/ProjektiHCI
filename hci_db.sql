@@ -41,7 +41,7 @@ CREATE TABLE `movieinfo` (
 --
 
 INSERT INTO `movieinfo` (`ID`, `Emri`, `Cmimi`, `Pershkrimi`, `fotosource`, `fotosource2`) VALUES
-(1, 'Wrath of Man', '3.99$', 'Adapted from the 2004 French film \"Le Convoyeur\" (aka \"Cash Truck\"), and borrowing the basic outline of the story, \"Wrath of Man\" is a time-shifting neo-noir crime thriller, filled with tough, sometim', '../media/detailsphoto1.jpg', '../media/detailsphoto2.jpg'),
+(1, 'Wrath of Man', '3.99$', 'Adapted from the 2004 French film \"Le Convoyeur\" (aka \"Cash Truck\"), and borrowing the basic outline of the story, \"Wrath of Man\" is a time-shifting neo-noir crime thriller, filled with tough, sometimes', '../media/detailsphoto1.jpg', '../media/detailsphoto2.jpg'),
 (2, 'Before we Go', '5.00$', 'Two strangers stuck in Manhattan for the night grow into each other\'s most trusted confidants when an evening of unexpected adventure forces them to confront their fears and take control of their live', '../media/detailsphoto3.jpg\r\n', '../media/detailsphoto4.jpg'),
 (3, 'Interstellar ', '2.10$', 'Interstellar is a 2014 British-American epic science fiction film co-written, directed and produced by Christopher Nolan. ... Set in a dystopian future where humanity is struggling to survive, the fil', '../media/detailsphoto5.jpg', '../media/detailsphoto6.jpg'),
 (4, 'Passengers', '7.00$', 'On a routine journey through space to a new home, two passengers, sleeping in suspended animation, are awakened 90 years too early when their ship malfunctions. As Jim and Aurora face living the rest ', '../media/moviephoto1.jpg', '../media/detailsphoto7.jpg'),

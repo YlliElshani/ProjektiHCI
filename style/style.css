@@ -21,6 +21,7 @@ body{
 }
 
 .box1{
+    display: flex;
     width:70%;
     height:500px;
     background-image: url(../media/homepage-cinema.jpg);
@@ -30,10 +31,47 @@ body{
     border-radius: 11px;
 }
 a#about{
-    font-size: larger;
+    border: 1px solid #B91515;
+    background-color: #B91515;
+    font-size:x-large;
     position: absolute;
     left:400px;
     top:500px;
+    text-decoration: none;
+    padding:15px;
+    border-radius: 5px;
+}
+.firstL{
+    position: absolute;
+    left:350px;
+    top:200px;
+    font-size: xx-large;
+}
+.secondL{
+    width: 30px;
+    height: 28px;
+    background-color: #B91515;
+    position: absolute;
+    left:540px;
+    top:500px;
+    padding:15px;
+    border-radius: 5px;
+}
+.thirdL{
+    font-size: x-large;
+    margin-left: 12%;
+    padding:10px;
+}
+.fourthL{
+    font-size: x-large;
+    margin-left: 20%;
+    padding:10px;
+    margin-top:5em;
+}
+.triangle{
+    margin:5px;
+    width:20px;
+    height:20px;
 }
 /*---------------------*/
 .second-main, .third-main{    
@@ -58,7 +96,6 @@ a#about{
 /*---------*/
 .box3{
     background-color:#141032 ;
-    margin-top:5em;
     width:60%;
 }
 .box3 ul li img {

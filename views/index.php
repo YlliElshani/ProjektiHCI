@@ -17,9 +17,12 @@
     <div class="main">
         <div class="first-main">
             <div class="box1">
+                <label class="firstL">Buy online tickets for your <br> favourite movies</label>
                 <a id="about" href="AboutUs.php">About Us</a>
+                <label class="secondL"><a href="AboutUs.php"><img class="triangle" src="../media/t.png"></a></label>
             </div>
         </div>
+        <label class="thirdL">Trending Now</label>
         <div class="second-main">
             <div class="box2">
                 <ul>
@@ -33,6 +36,7 @@
                 </ul>
             </div>
         </div>
+        <label class="fourthL">What's Happening in the Movie Industry?</label>
         <div class="third-main">
             <div class="box3">
                 <ul>
