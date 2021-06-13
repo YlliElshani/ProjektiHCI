@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 12, 2021 at 08:48 PM
+-- Generation Time: Jun 13, 2021 at 12:10 PM
 -- Server version: 10.4.17-MariaDB
 -- PHP Version: 7.4.15
 
@@ -20,18 +20,6 @@ SET time_zone = "+00:00";
 --
 -- Database: `hci_db`
 --
-
--- --------------------------------------------------------
-
---
--- Table structure for table `favourites`
---
-
-CREATE TABLE `favourites` (
-  `favId` int(11) NOT NULL,
-  `movie` int(11) DEFAULT NULL,
-  `user` int(11) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -65,7 +53,6 @@ INSERT INTO `movieinfo` (`ID`, `Emri`, `Cmimi`, `Pershkrimi`, `fotosource`, `fot
 (10, 'Extraction', '1.99$', 'A black-market mercenary who has nothing to lose is hired to rescue the kidnapped son of an imprisoned international crime lord. But in the murky underworld of weapons dealers and drug traffickers, an', '../media/triller1.jpg', '../media/details10h.jpg'),
 (11, 'Rava', '7.30$', 'Raya and the Last Dragon is a 2021 American computer-animated fantasy action-adventure film produced by Walt Disney Pictures and Walt Disney Animation Studios, and distributed by Walt Disney Studios M', '../media/animated1.jpg', '../media/details11h.jpg'),
 (12, 'Naruto', '9.99$', 'Two years after the Fourth Shinobi World War, Naruto must stop Toneri Otsutsuki, a descendant of Hamura Otsutsuki, after Toneri causes the moon to descend toward Earth.', '../media/animated2.jpg', '../media/details12h.jpg');
--- --------------------------------------------------------
 
 -- --------------------------------------------------------
 
@@ -92,6 +79,8 @@ INSERT INTO `user` (`userid`, `name`, `lastname`, `email`, `password`, `ccNo`, `
 (16, 'Endrit', 'Makolli', 'endrit.makolli@gmail.com', '$2y$10$jE9s2Ny5SDjU0.tFac2kt.vYjGc3/i3AsI6w9vHBnvDe1Hba28V/y', 1234343535, 0);
 
 --
+-- Indexes for dumped tables
+--
 
 --
 -- Indexes for table `movieinfo`
@@ -114,7 +103,7 @@ ALTER TABLE `user`
 --
 ALTER TABLE `user`
   MODIFY `userid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
-
+COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
